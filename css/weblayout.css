@@ -1,0 +1,47 @@
+/*External css*/
+body {
+  padding: 2em;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+.navBar {
+  background: #d7e8d4;
+  flex: 1;
+}
+.outerDiv {
+  display: flex;
+  flex-direction: column;
+  flex: 5;
+}
+.innerDiv1 {
+  display: flex;
+  flex-direction: row;
+}
+.innerDiv2 {
+  flex: 4;
+}
+article {
+  padding: 10px;
+  margin: 10px;
+  background-color: aqua;
+}
+sidebar {
+  background: pink;
+  flex: 1;
+  text-align: center;
+}
+header,
+footer {
+  background: yellowgreen;
+  text-align: center;
+  font-size: 30px;
+  font-family: Impact;
+}
+header,
+footer,
+article,
+nav,
+sidebar {
+  padding: 1em;
+}
