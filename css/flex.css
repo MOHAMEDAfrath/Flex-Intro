@@ -1,0 +1,54 @@
+/*Css style sheet*/
+body {
+  padding: 2em;
+}
+header {
+  display: block;
+  align-content: center;
+  background-color: red;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+}
+header,
+footer {
+  font-family: "Impact";
+}
+footer {
+  display: block;
+  text-align: center;
+  background-color: green;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 30px;
+  border-radius: 0 0 10px 10px;
+}
+.main {
+  display: flex;
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}
+article {
+  padding: 10px;
+  margin: 10px;
+  background-color: aqua;
+}
+.section {
+  text-align: left;
+  background: deepskyblue;
+  flex: 3;
+  order: 2;
+}
+.leftbar {
+  background-color: yellow;
+  flex: 1;
+  order: 1;
+}
+.rightbar {
+  background-color: pink;
+  flex: 1;
+  order: 3;
+}
